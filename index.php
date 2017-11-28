@@ -313,6 +313,13 @@
 
     <?php include 'template_parts/footer.php' ?>
     <script>
+        $(function () {
+            $(document).scroll(function () {
+                var nav = $(".navbar-fixed-top");
+                nav.toggleClass('scrolled', $(this).scrollTop() > nav.height());
+            });
+        });
+
          $('.owl-carousel').owlCarousel({
             items:1,
             merge:false,

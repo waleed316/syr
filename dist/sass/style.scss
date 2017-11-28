@@ -22,7 +22,6 @@
 // Navbar Component
 .main-navbar{
     background-color: #eaeef5;
-    height: 89px;
     z-index: 1!important;
     position: relative;
 
@@ -36,6 +35,11 @@
                 width: 15.44vw;  
             }
         }
+    }
+
+    .navbar-fixed-top.scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
     }
 
     .navbar-list-margin{
@@ -492,6 +496,7 @@
         position: absolute;
         left: 18.59vw;
         top: 10%;
+        width: 37.91vw;
     }
 
 
@@ -524,18 +529,18 @@
     
     .facebook-column{
 
-        margin-left: 185px;
+        margin-left: 13.58vw;
 
         .facebook-feed{
             box-shadow: -1px 2px 5px rgba(0,0,0,0.3);
-            width: 244.17px;
+            width: 17.83vw;
             background-color: #f0f0f7;
             border-radius: 3.42px;
             float: left;
             margin-right: 10px;
     
             .facebook-img{
-                width: 244.17px;
+                width: 17.83vw;
                 position: relative;
                 height: 153.67px;
     
@@ -599,7 +604,7 @@
 .sixth-portion{
     margin-top: 8%;
     margin-bottom: 5%;
-
+    
     .sixth-heading{
         text-align: center;
         color: #0d669e;
@@ -619,14 +624,15 @@
 
     .sixth-testimonial-section{
         margin-top: 8%;
-        margin-left: 185px;
+        margin-left: 13.58vw;        
+        width: 73.206vw;        
     }
 
     .testimonials-section{
         width: 73.206vw;
         .item-video{
-            width: 327.84px!important;
-            height: 192.23px!important;
+            width:  23.916vw!important;
+            height: 167.93px!important;
             float: left;
             border-radius: 3.27px;
         }
