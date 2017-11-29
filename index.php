@@ -3,7 +3,7 @@
   <?php include 'template_parts/header.php' ?>
   
   <body>
-    <nav class="navbar fixed-top navbar-toggleable-md main-navbar px-0" style="background-color:transparent!important">
+    <nav class="navbar fixed-top navbar-toggleable-md main-navbar px-0">
         <div class="container navbar-margin">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon fa fa-bars"></span>
@@ -344,9 +344,9 @@
         $(document).ready(function(){
         $(window).scroll(function() { // check if scroll event happened
             if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-            $(".main-navbar").css({"background-color": "#f8f8f8","z-index":"1000"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+            $(".main-navbar").css({"background-color": "#f8f8f8","z-index":"10384"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
             $(".navbar-nav").addClass('justify-content-end');
-            $(".navbar-margin").css({"background-color": "#f8f8f8","z-index":"1000"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)            
+            $(".navbar-margin").css({"background-color": "#f8f8f8","z-index":"10384"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)            
             } else {
             $(".main-navbar").css("background-color", "transparent"); // if not, change it back to transparent
             $(".navbar-nav").removeClass('justify-content-end');            

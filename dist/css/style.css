@@ -13,8 +13,8 @@
   padding: 0; }
 
 .main-navbar {
-  background-color: #eaeef5;
-  z-index: 1;
+  background-color: transparent;
+  z-index: 1000;
   position: relative;
   transition: all 0.2s ease-in-out; }
   .main-navbar .navbar-margin {
@@ -61,7 +61,7 @@
       left: 0%;
       width: 100%;
       right: 0%;
-      z-index: 10; }
+      z-index: 1; }
       .main-banner .left-banner .left-banner-text .center-allign {
         position: absolute;
         left: 21vw;
@@ -129,7 +129,7 @@
       top: 35%;
       left: 5%;
       transform: translate(-5%, -35%);
-      z-index: 10; }
+      z-index: 0; }
       .main-banner .right-banner .right-banner-text .right-banner-tagline {
         color: white;
         font-size: 1.13vw;
@@ -499,11 +499,15 @@
 
 @media (min-width: 260px) and (max-width: 575px) {
   .main-navbar {
-    background-color: #eaeef5;
     height: 50px;
-    z-index: 1000 !important;
+    z-index: 10384 !important;
     position: relative;
     padding-top: 0 !important; }
+    .main-navbar .navbar-collapse {
+      margin-left: 0 !important;
+      background-color: white;
+      padding-left: 55px;
+      box-shadow: 0px 2px 5px; }
     .main-navbar .navbar-margin {
       margin: 0 !important;
       width: 100% !important; }
@@ -526,7 +530,8 @@
         height: 2px;
         background: #0d669e;
         display: block;
-        margin-top: 0px; }
+        margin-top: 0px;
+        display: none; }
     .main-navbar .nav-link {
       font-size: 12px;
       font-family: “Myriad Pro”, Arial, Helvetica, sans-serif;
@@ -550,7 +555,7 @@
         width: 100%;
         right: 0%;
         height: 100%;
-        z-index: 10; }
+        z-index: 1; }
         .main-banner .left-banner .left-banner-text .center-allign {
           position: absolute;
           top: 50%;
@@ -610,7 +615,7 @@
         top: 40%;
         left: 5%;
         transform: translate(-5%, -35%);
-        z-index: 10; }
+        z-index: 0; }
         .main-banner .right-banner .right-banner-text .right-banner-tagline {
           color: white;
           font-size: 1.13vw;
@@ -1007,11 +1012,15 @@
               font-size: 14px; } }
 @media (min-width: 576px) and (max-width: 767px) {
   .main-navbar {
-    background-color: #eaeef5;
     height: 50px;
-    z-index: 1000 !important;
+    z-index: 10384 !important;
     position: relative;
     padding-top: 0 !important; }
+    .main-navbar .navbar-collapse {
+      margin-left: 0 !important;
+      background-color: white;
+      padding-left: 55px;
+      box-shadow: 0px 2px 5px; }
     .main-navbar .navbar-margin {
       margin: 0 !important;
       width: 100% !important; }
@@ -1034,7 +1043,8 @@
         height: 2px;
         background: #0d669e;
         display: block;
-        margin-top: 0px; }
+        margin-top: 0px;
+        display: none; }
     .main-navbar .nav-link {
       font-size: 12px;
       font-family: “Myriad Pro”, Arial, Helvetica, sans-serif;
@@ -1058,7 +1068,7 @@
         width: 100%;
         right: 0%;
         height: 100%;
-        z-index: 10; }
+        z-index: 1; }
         .main-banner .left-banner .left-banner-text .center-allign {
           position: absolute;
           top: 50%;
@@ -1118,7 +1128,7 @@
         top: 40%;
         left: 5%;
         transform: translate(-5%, -35%);
-        z-index: 10; }
+        z-index: 0; }
         .main-banner .right-banner .right-banner-text .right-banner-tagline {
           color: white;
           font-size: 1.13vw;
@@ -1503,11 +1513,50 @@
               transform: translate(-50%, -50%);
               color: white;
               font-size: 14px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-navbar {
+    height: 50px;
+    z-index: 10384 !important;
+    position: relative;
+    padding-top: 0 !important; }
+    .main-navbar .navbar-collapse {
+      background-color: white;
+      margin-left: 0 !important;
+      padding-left: 75px;
+      box-shadow: 0px 2px 5px; }
+    .main-navbar .navbar-margin {
+      margin: 0 !important;
+      width: 100% !important; }
+      .main-navbar .navbar-margin .navbar-brand {
+        margin-right: 0; }
+        .main-navbar .navbar-margin .navbar-brand img {
+          width: auto; }
+    .main-navbar .navbar-toggler {
+      color: black;
+      margin-top: 10px; }
+    .main-navbar .navbar-list-margin {
+      margin-left: 3.51vw; }
+    .main-navbar .nav-item {
+      margin-right: 0.2vw; }
+    .main-navbar .active .nav-link {
+      color: #0d669e !important; }
+      .main-navbar .active .nav-link::after {
+        content: '';
+        padding-bottom: 1px;
+        height: 2px;
+        background: #0d669e;
+        display: block;
+        margin-top: 0px;
+        display: none !important; }
+    .main-navbar .nav-link {
+      font-size: 12px;
+      font-family: “Myriad Pro”, Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      color: black; } }
 @media (min-width: 768px) and (max-width: 1023px) {
   .main-navbar {
-    background-color: #eaeef5;
     height: 50px;
-    z-index: 1 !important;
+    z-index: 10384 !important;
     position: relative;
     padding-top: 0 !important; }
     .main-navbar .navbar-margin {
@@ -1554,7 +1603,7 @@
         left: 0%;
         width: 100%;
         right: 0%;
-        z-index: 10; }
+        z-index: 1; }
         .main-banner .left-banner .left-banner-text .center-allign {
           position: absolute;
           left: 21vw;
@@ -1613,7 +1662,7 @@
         top: 40%;
         left: 5%;
         transform: translate(-5%, -35%);
-        z-index: 10; }
+        z-index: 0; }
         .main-banner .right-banner .right-banner-text .right-banner-tagline {
           color: white;
           font-size: 1.13vw;
@@ -1995,9 +2044,7 @@
               font-size: 14px; } }
 @media (min-width: 1024px) and (max-width: 1199px) {
   .main-navbar {
-    background-color: #eaeef5;
-    height: 89px;
-    z-index: 1 !important;
+    z-index: 10384 !important;
     position: relative; }
     .main-navbar .navbar-margin {
       margin: 0px 5% 0px 13.3vw !important; }
@@ -2040,7 +2087,7 @@
         left: 0%;
         width: 100%;
         right: 0%;
-        z-index: 10; }
+        z-index: 1; }
         .main-banner .left-banner .left-banner-text .center-allign {
           position: absolute;
           left: 21vw;
@@ -2099,7 +2146,7 @@
         top: 35%;
         left: 5%;
         transform: translate(-5%, -35%);
-        z-index: 10; }
+        z-index: 0; }
         .main-banner .right-banner .right-banner-text .right-banner-tagline {
           color: white;
           font-size: 1.13vw;
@@ -2476,17 +2523,16 @@
               font-size: 14px; } }
 @media (min-width: 1441px) {
   .main-navbar {
-    background-color: #eaeef5;
     height: 89px;
-    z-index: 1 !important;
+    z-index: 10984 !important;
     position: relative; }
     .main-navbar .navbar-margin {
       margin: 0px 5% 0px 13.3vw !important; }
       .main-navbar .navbar-margin .navbar-brand {
         margin-right: 0; }
         .main-navbar .navbar-margin .navbar-brand img {
-          height: 40px !important;
-          width: 15.44vw; }
+          height: auto !important;
+          width: auto !important; }
     .main-navbar .navbar-list-margin {
       margin-left: 3.51vw; }
     .main-navbar .nav-item {
@@ -2514,7 +2560,7 @@
     top: 0; }
     .main-banner .left-banner {
       background-color: #eaeef5;
-      height: 496px;
+      height: 945.54px;
       width: 61.49vw;
       position: relative;
       float: left; }
@@ -2524,7 +2570,7 @@
         left: 0%;
         width: 100%;
         right: 0%;
-        z-index: 10; }
+        z-index: 1; }
         .main-banner .left-banner .left-banner-text .center-allign {
           position: absolute;
           left: 21vw;
@@ -2556,15 +2602,19 @@
             margin-bottom: 35px; }
           .main-banner .left-banner .left-banner-text .center-allign .btn-syc {
             background-image: url("../img/sedan-car-model.png");
-            height: 34px;
-            width: 15.59vw;
+            height: 45px;
+            width: 15.27vw;
             text-align: left;
             background-origin: border-box;
             background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
             color: white;
             font-size: 0.94vw;
             border-radius: 2.25rem;
-            box-shadow: 0px 1px 5px black; }
+            box-shadow: 0px 1px 5px black;
+            line-height: 1.6;
+            text-indent: 25px; }
       .main-banner .left-banner .left-banner-img {
         position: absolute;
         right: 0;
@@ -2574,15 +2624,17 @@
     .main-banner .right-banner {
       position: relative;
       float: left;
-      height: 496px;
+      height: 945.54px;
       width: 38.51vw;
-      background-image: url("../img/Layer 3.png"); }
+      background-image: url("../img/Layer 3.png");
+      background-size: cover;
+      background-repeat: no-repeat; }
       .main-banner .right-banner .right-banner-text {
         position: absolute;
         top: 35%;
         left: 5%;
         transform: translate(-5%, -35%);
-        z-index: 10; }
+        z-index: 0; }
         .main-banner .right-banner .right-banner-text .right-banner-tagline {
           color: white;
           font-size: 1.13vw;
@@ -2594,7 +2646,7 @@
         background-color: white; }
     .main-banner .bottom-banner {
       position: absolute;
-      bottom: 0px;
+      bottom: -120px;
       z-index: 0;
       width: 100%; }
       .main-banner .bottom-banner img {
@@ -2628,16 +2680,19 @@
         line-height: 1.5; }
       .second-portion .second-section .btn-syc {
         background-image: url("../img/sedan-car-model.png");
-        height: 34px;
-        width: 15.59vw;
+        height: 45px;
+        width: 15.27vw;
         text-align: left;
         background-origin: border-box;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         color: white;
         font-size: 0.94vw;
         border-radius: 2.25rem;
         box-shadow: 0px 1px 5px black;
-        margin-top: 5%; }
+        line-height: 1.6;
+        text-indent: 25px; }
 
   .third-portion {
     position: relative;
@@ -2709,7 +2764,8 @@
             background-color: transparent;
             border-color: white;
             color: white;
-            border-radius: 2.25rem; }
+            border-radius: 2.25rem;
+            height: 45px; }
           .third-portion .third-section .third-section-form .form-padding .form-submit-btn {
             margin-top: 33px;
             width: 209px;
@@ -2719,7 +2775,8 @@
             font-family: 'Poppins', sans-serif;
             font-weight: 600;
             letter-spacing: 0.1em;
-            height: 34px;
+            height: 45px;
+            line-height: 1;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
       .third-portion .third-section .third-section-description {
         position: absolute;
@@ -2730,7 +2787,7 @@
         transform: translateX(-50%);
         width: 73.06vw;
         top: 62%;
-        height: 450px; }
+        height: 712.81px; }
         .third-portion .third-section .third-section-description .third-section-desc-box {
           position: absolute;
           top: 50%;
@@ -2751,12 +2808,12 @@
             font-family: 'Poppins', sans-serif; }
 
   .fourth-portion {
-    margin-top: 30%; }
+    margin-top: 40%; }
     .fourth-portion .fourth-left-column {
       box-shadow: 0 0 10px;
       position: relative;
       width: 46.12vw;
-      height: 377px;
+      height: 596.68px;
       background: #1499ce;
       background: -moz-linear-gradient(left, #1499ce 0%, #4a24d9 100%);
       background: -webkit-linear-gradient(left, #1499ce 0%, #4a24d9 100%);
@@ -2774,7 +2831,7 @@
         bottom: 0; }
     .fourth-portion .fourth-right-column {
       width: 53.87vw;
-      height: 377px;
+      height: 596.68px;
       background-color: #eaeef5; }
       .fourth-portion .fourth-right-column .fourth-text {
         margin-left: 12.66vw;
@@ -2805,8 +2862,9 @@
             text-decoration: none; }
     .fourth-portion .fourth-section-bg {
       position: absolute;
-      left: 18.59vw;
-      top: 10%; }
+      left: 25.59vw;
+      top: 10%;
+      width: 31.05vw; }
 
   .fifth-portion {
     margin-top: 5%; }
@@ -2827,18 +2885,18 @@
     .fifth-portion .facebook-feed-margin {
       margin-top: 52px; }
     .fifth-portion .facebook-column {
-      margin-left: 18.06vw; }
+      margin-left: 13.51vw; }
       .fifth-portion .facebook-column .facebook-feed {
         box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.3);
-        width: 244.17px;
+        width: 17.87vw;
         background-color: #f0f0f7;
         border-radius: 3.42px;
         float: left;
         margin-right: 10px; }
         .fifth-portion .facebook-column .facebook-feed .facebook-img {
-          width: 244.17px;
+          width: 100%;
           position: relative;
-          height: 153.67px; }
+          height: 243.02px; }
           .fifth-portion .facebook-column .facebook-feed .facebook-img img {
             position: absolute;
             width: 100%;
@@ -2847,7 +2905,7 @@
           padding: 17px; }
           .fifth-portion .facebook-column .facebook-feed .facebook-desc p.fb-details {
             font-family: 'Poppins', sans-serif;
-            font-size: 12.81px;
+            font-size: 20.25px;
             color: #6d6e7e;
             font-weight: 500;
             margin-bottom: 22px; }
@@ -2862,11 +2920,11 @@
               margin-bottom: 3px;
               margin-top: 5px;
               color: #0d669e;
-              font-size: 15px;
+              font-size: 18px;
               font-family: 'Poppins', sans-serif; }
             .fifth-portion .facebook-column .facebook-feed .facebook-desc .fb-profile-box .fb-profile-name h6.date {
-              font-size: 12px;
-              padding-bottom: 8px;
+              font-size: 16px;
+              padding-bottom: 10px;
               color: #6d6e7e; }
 
   .sixth-portion {
@@ -2887,7 +2945,7 @@
       transform: translate(-50%); }
     .sixth-portion .sixth-testimonial-section {
       margin-top: 8%;
-      margin-left: 18.06vw; }
+      margin-left: 13.51vw; }
     .sixth-portion .testimonials-section {
       width: 73.206vw; }
       .sixth-portion .testimonials-section .item-video {
