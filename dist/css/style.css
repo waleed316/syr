@@ -622,6 +622,99 @@
   color: #6d6e7e !important;
   font-weight: 700 !important; }
 
+.form-portion {
+  margin-top: 70px; }
+  .form-portion .form-section {
+    width: 51.39vw;
+    margin: 73px auto; }
+    .form-portion .form-section .form-first-row h1.form-heading {
+      text-align: center;
+      color: #0d669e;
+      font-family: ProximaNova-Extrabold;
+      font-size: 1.87vw; }
+    .form-portion .form-section .form-first-row hr {
+      width: 3%;
+      background-color: #9c9ca6;
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .form-portion .form-section .form-first-row h6.form-second-heading {
+      color: #9c9ca6;
+      font-size: 11.1px;
+      font-family: Poppins-Regular;
+      margin-top: 30px;
+      text-align: center; }
+      .form-portion .form-section .form-first-row h6.form-second-heading span {
+        color: red; }
+    .form-portion .form-section .form-second-row {
+      margin-top: 34px;
+      /*progressbar connectors*/
+      /*marking active/completed steps green*/
+      /*The number of the step and the connector before it = green*/ }
+      .form-portion .form-section .form-second-row #progressbar {
+        margin-bottom: 30px;
+        overflow: hidden;
+        /*CSS counters to number the steps*/
+        counter-reset: step;
+        margin-left: 16%; }
+      .form-portion .form-section .form-second-row #progressbar li {
+        list-style-type: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 9px;
+        width: 120px;
+        float: left;
+        position: relative; }
+      .form-portion .form-section .form-second-row #progressbar li:before {
+        content: counter(step);
+        counter-increment: step;
+        width: 27.32px;
+        line-height: 27.32px;
+        display: block;
+        box-shadow: 0px 2px 9px #666;
+        font-size: 10px;
+        color: #333;
+        background: white;
+        border-radius: 2.25rem;
+        text-align: center;
+        margin: 0 auto 5px auto; }
+      .form-portion .form-section .form-second-row #progressbar li:after {
+        content: '';
+        width: 100%;
+        height: 3px;
+        background: #b3bcc5;
+        position: absolute;
+        left: -50%;
+        top: 13px;
+        z-index: -1;
+        /*put it behind the numbers*/ }
+      .form-portion .form-section .form-second-row #progressbar li:first-child:after {
+        /*connector not needed before the first step*/
+        content: none; }
+      .form-portion .form-section .form-second-row #progressbar li.active:before, .form-portion .form-section .form-second-row #progressbar li.active:after {
+        background: #0d669e;
+        color: white; }
+      .form-portion .form-section .form-second-row h6.form-note {
+        text-align: center;
+        font-size: 14px;
+        color: #666; }
+      .form-portion .form-section .form-second-row .form-label-color {
+        color: #9c9ca6; }
+        .form-portion .form-section .form-second-row .form-label-color span {
+          color: red; }
+      .form-portion .form-section .form-second-row .form-btn-next {
+        height: 34.15px;
+        width: 139.16px;
+        background-color: black;
+        color: white;
+        border-radius: 2.25rem;
+        cursor: pointer; }
+        .form-portion .form-section .form-second-row .form-btn-next:hover {
+          box-shadow: 0px 3px 5px black; }
+      .form-portion .form-section .form-second-row .form-input-color {
+        border-color: #9c9ca6; }
+
 @media (min-width: 260px) and (max-width: 575px) {
   .main-navbar {
     height: 50px;
