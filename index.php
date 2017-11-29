@@ -14,19 +14,19 @@
                 <div class="col-xl-11 px-0">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link" href="about.php">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SELL YOUR CAR</a>
+                            <a class="nav-link" href="syc.php">SELL YOUR CAR</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">FAQS</a>
+                            <a class="nav-link" href="FAQ.php">FAQS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="contact.php">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -344,9 +344,9 @@
         $(document).ready(function(){
         $(window).scroll(function() { // check if scroll event happened
             if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-            $(".main-navbar").css({"background-color": "#f8f8f8","z-index":"10384"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+            $(".main-navbar").css({"background-color": "#eaeef5","z-index":"10384"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
             $(".navbar-nav").addClass('justify-content-end');
-            $(".navbar-margin").css({"background-color": "#f8f8f8","z-index":"10384"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)            
+            $(".navbar-margin").css({"background-color": "#eaeef5","z-index":"10384"}); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)            
             } else {
             $(".main-navbar").css("background-color", "transparent"); // if not, change it back to transparent
             $(".navbar-nav").removeClass('justify-content-end');            

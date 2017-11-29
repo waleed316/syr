@@ -497,6 +497,131 @@
             color: white;
             font-size: 14px; }
 
+.other-navbar {
+  background-color: #eaeef5; }
+
+.faq-main-container {
+  margin-top: 10% !important; }
+
+.faq-question-heading {
+  margin-bottom: 0;
+  font-family: Poppins-Regular;
+  color: #6d6e7e; }
+
+.faq-main-heading h3 {
+  color: #0d669e;
+  font-family: ProximaNova-Extrabold;
+  margin-bottom: 5px; }
+
+.faq-answer-heading {
+  font-family: Poppins-Regular;
+  color: #6d6e7e8a; }
+
+.about-container {
+  margin-top: 110px; }
+  .about-container .about-box-container {
+    width: 73.206vw;
+    height: 100%;
+    margin: auto; }
+    .about-container .about-box-container .about-first-row .about-inner-row {
+      position: relative;
+      margin-left: 9.95vw;
+      width: 59.297vw;
+      background-color: rgba(234, 238, 245, 0.9);
+      box-shadow: -8px 8px 25px rgba(15, 26, 38, 0.24);
+      padding-bottom: 5px; }
+      .about-container .about-box-container .about-first-row .about-inner-row .about-heading {
+        font-family: ProximaNova-Extrabold;
+        font-size: 5.62vw;
+        color: white;
+        line-height: 0.79;
+        margin-bottom: 20px; }
+      .about-container .about-box-container .about-first-row .about-inner-row .about-description {
+        margin-left: 2.56vw;
+        width: 53.87vw; }
+        .about-container .about-box-container .about-first-row .about-inner-row .about-description .about-para {
+          font-size: 12.8px;
+          font-family: Poppins-Regular;
+          color: #6d6e7e;
+          line-height: 1.9; }
+      .about-container .about-box-container .about-first-row .about-inner-row .left-img {
+        position: absolute;
+        left: -80px;
+        bottom: 0;
+        z-index: -1; }
+    .about-container .about-box-container .about-second-row {
+      width: 73.206vw;
+      margin-left: 11.346vw;
+      margin-top: 80px; }
+      .about-container .about-box-container .about-second-row .two-boxes {
+        margin-right: 85px;
+        width: 21.91vw;
+        float: left;
+        margin-bottom: 5%; }
+        .about-container .about-box-container .about-second-row .two-boxes .about-img-box {
+          display: block;
+          width: auto; }
+        .about-container .about-box-container .about-second-row .two-boxes .about-text-box {
+          text-align: center;
+          padding: 22px 0px; }
+          .about-container .about-box-container .about-second-row .two-boxes .about-text-box h6.about-fb-profile-name {
+            color: #0d669e;
+            font-size: 21.34px;
+            font-family: ProximaNova-Extrabold; }
+          .about-container .about-box-container .about-second-row .two-boxes .about-text-box h6.about-fb-desig {
+            color: #6d6e7e;
+            font-size: 12.8px;
+            font-family: Poppins-Regular; }
+
+.contact-portion {
+  margin-top: 70px; }
+
+.faq-main-heading h3 {
+  font-family: ProximaNova-Extrabold; }
+.faq-main-heading hr {
+  width: 5%;
+  margin-top: 0; }
+
+.contact-form-box {
+  display: flex; }
+
+.contact-main-container {
+  width: 73.206vw;
+  margin: 40px auto; }
+
+.contact-form-container {
+  width: 25.98vw;
+  float: left; }
+
+.contact-map-row {
+  height: 260px; }
+
+.contact-form .form-control {
+  margin: 10px auto;
+  border-radius: 20px; }
+
+.contact-form-message {
+  height: 150px; }
+
+.contact-form-button {
+  background-color: #1e1f2d !important;
+  color: white !important; }
+
+.contact-details-container {
+  width: 44.28vw;
+  float: left;
+  margin-left: 20px; }
+
+.contact-details-row p {
+  font-size: 13px; }
+
+.contact-details-span {
+  padding-right: 10px; }
+
+.contact-details-heading {
+  color: #6d6e7e !important;
+  font-weight: 700 !important; }
+
 @media (min-width: 260px) and (max-width: 575px) {
   .main-navbar {
     height: 50px;
@@ -1009,7 +1134,82 @@
               top: 50%;
               transform: translate(-50%, -50%);
               color: white;
-              font-size: 14px; } }
+              font-size: 14px; }
+
+  .about-container {
+    margin-top: 110px; }
+    .about-container .about-box-container {
+      width: 73.206vw;
+      height: 100%;
+      margin: auto; }
+      .about-container .about-box-container .about-first-row .about-inner-row {
+        position: relative;
+        margin-left: 0;
+        width: 100%;
+        background-color: rgba(234, 238, 245, 0.9);
+        box-shadow: -8px 8px 25px rgba(15, 26, 38, 0.24);
+        padding-bottom: 5px; }
+        .about-container .about-box-container .about-first-row .about-inner-row .about-heading {
+          font-family: ProximaNova-Extrabold;
+          font-size: 5.62vw;
+          color: white;
+          line-height: 0.79;
+          margin-bottom: 20px; }
+        .about-container .about-box-container .about-first-row .about-inner-row .about-description {
+          margin-left: 2.56vw;
+          width: 53.87vw; }
+          .about-container .about-box-container .about-first-row .about-inner-row .about-description .about-para {
+            font-size: 12.8px;
+            font-family: Poppins-Regular;
+            color: #6d6e7e;
+            line-height: 1.9; }
+        .about-container .about-box-container .about-first-row .about-inner-row .left-img {
+          position: absolute;
+          left: -80px;
+          bottom: 0;
+          z-index: -1; }
+      .about-container .about-box-container .about-second-row {
+        width: 73.206vw;
+        margin-left: 11.346vw;
+        margin-top: 80px; }
+        .about-container .about-box-container .about-second-row .two-boxes {
+          margin-right: 25px;
+          width: 21.91vw;
+          float: left;
+          margin-bottom: 5%; }
+          .about-container .about-box-container .about-second-row .two-boxes .about-img-box {
+            display: block; }
+          .about-container .about-box-container .about-second-row .two-boxes .about-text-box {
+            text-align: center;
+            padding: 22px 0px; }
+            .about-container .about-box-container .about-second-row .two-boxes .about-text-box h6.about-fb-profile-name {
+              color: #0d669e;
+              font-size: 12px;
+              font-family: ProximaNova-Extrabold; }
+            .about-container .about-box-container .about-second-row .two-boxes .about-text-box h6.about-fb-desig {
+              color: #6d6e7e;
+              font-size: 10px;
+              font-family: Poppins-Regular; }
+
+  .contact-portion {
+    margin-top: 70px; }
+
+  .faq-main-heading h3 {
+    font-family: ProximaNova-Extrabold; }
+  .faq-main-heading hr {
+    width: 5%;
+    margin-top: 0; }
+
+  .contact-form-box {
+    display: block; }
+    .contact-form-box .contact-form-container, .contact-form-box .contact-details-container {
+      width: 100%; }
+    .contact-form-box .contact-details-container {
+      margin-top: 5%;
+      margin-left: 0 !important; }
+
+  .faq-page {
+    margin-top: 15%; } }
 @media (min-width: 576px) and (max-width: 767px) {
   .main-navbar {
     height: 50px;
@@ -1512,7 +1712,23 @@
               top: 50%;
               transform: translate(-50%, -50%);
               color: white;
-              font-size: 14px; } }
+              font-size: 14px; }
+
+  .contact-portion {
+    margin-top: 70px; }
+
+  .faq-main-heading h3 {
+    font-family: ProximaNova-Extrabold; }
+  .faq-main-heading hr {
+    width: 5%;
+    margin-top: 0; }
+
+  .contact-form-box {
+    display: block; }
+    .contact-form-box .contact-form-container, .contact-form-box .contact-details-container {
+      width: 100%; }
+    .contact-form-box .contact-details-container {
+      margin-top: 5%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .main-navbar {
     height: 50px;
@@ -1552,7 +1768,12 @@
       font-size: 12px;
       font-family: “Myriad Pro”, Arial, Helvetica, sans-serif;
       font-weight: 800;
-      color: black; } }
+      color: black; }
+
+  .contact-details-container {
+    width: 68%; }
+    .contact-details-container .contact-map-row {
+      height: 230px; } }
 @media (min-width: 768px) and (max-width: 1023px) {
   .main-navbar {
     height: 50px;
@@ -3005,6 +3226,61 @@
               top: 50%;
               transform: translate(-50%, -50%);
               color: white;
-              font-size: 14px; } }
+              font-size: 14px; }
+
+  .about-container {
+    margin-top: 110px; }
+    .about-container .about-box-container {
+      width: 73.206vw;
+      height: 100%;
+      margin: auto; }
+      .about-container .about-box-container .about-first-row .about-inner-row {
+        position: relative;
+        margin-left: 9.95vw;
+        width: 59.297vw;
+        background-color: rgba(234, 238, 245, 0.9);
+        box-shadow: -8px 8px 25px rgba(15, 26, 38, 0.24);
+        padding-bottom: 5px; }
+        .about-container .about-box-container .about-first-row .about-inner-row .about-heading {
+          font-family: ProximaNova-Extrabold;
+          font-size: 5.62vw;
+          color: white;
+          line-height: 0.79;
+          margin-bottom: 20px; }
+        .about-container .about-box-container .about-first-row .about-inner-row .about-description {
+          margin-left: 2.56vw;
+          width: 53.87vw; }
+          .about-container .about-box-container .about-first-row .about-inner-row .about-description .about-para {
+            font-size: 0.96vw;
+            font-family: Poppins-Regular;
+            color: #6d6e7e;
+            line-height: 1.9; }
+        .about-container .about-box-container .about-first-row .about-inner-row .left-img {
+          position: absolute;
+          left: -80px;
+          bottom: 0;
+          z-index: -1; }
+      .about-container .about-box-container .about-second-row {
+        width: 73.206vw;
+        margin-left: 11.346vw;
+        margin-top: 80px; }
+        .about-container .about-box-container .about-second-row .two-boxes {
+          margin-right: 85px;
+          width: 298.81px;
+          float: left;
+          margin-bottom: 5%; }
+          .about-container .about-box-container .about-second-row .two-boxes .about-img-box {
+            display: block; }
+          .about-container .about-box-container .about-second-row .two-boxes .about-text-box {
+            text-align: center;
+            padding: 22px 0px; }
+            .about-container .about-box-container .about-second-row .two-boxes .about-text-box h6.about-fb-profile-name {
+              color: #0d669e;
+              font-size: 21.34px;
+              font-family: ProximaNova-Extrabold; }
+            .about-container .about-box-container .about-second-row .two-boxes .about-text-box h6.about-fb-desig {
+              color: #6d6e7e;
+              font-size: 12.8px;
+              font-family: Poppins-Regular; } }
 
 /*# sourceMappingURL=style.css.map */

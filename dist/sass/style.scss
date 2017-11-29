@@ -728,6 +728,202 @@
 
 
 
+// FAQ Page styling
+// all pages navbar
+
+.other-navbar{
+    background-color: #eaeef5;
+}
+
+
+.faq-main-container{
+    margin-top: 10%!important;
+}
+
+.faq-question-heading{
+    margin-bottom:0;
+    font-family: Poppins-Regular;
+    color:#6d6e7e;
+}
+
+.faq-main-heading{
+    h3{
+        color: #0d669e;
+        font-family: ProximaNova-Extrabold;
+        margin-bottom: 5px;
+    }
+   
+}
+
+.faq-answer-heading{
+    font-family: Poppins-Regular;
+    color:#6d6e7e8a;
+}
+
+
+
+
+// About Page Styling
+.about-container{
+    margin-top:110px;
+
+    .about-box-container{
+        width:73.206vw;
+        height:100%;
+        margin:auto;
+
+        .about-first-row{
+
+            .about-inner-row{
+                position:relative;
+                margin-left:9.95vw;
+                width:59.297vw;
+                background-color: rgba(234, 238, 245, 0.9);  
+                box-shadow:-8px 8px 25px rgba(15, 26, 38, 0.24);
+                padding-bottom: 5px;                
+                
+                .about-heading{
+                    font-family: ProximaNova-Extrabold;
+                    font-size: 5.62vw;
+                    color:white;
+                    line-height: 0.79;
+                    // margin-left:-4px;
+                    margin-bottom:20px;
+                }
+
+                .about-description{
+                    margin-left: 2.56vw;
+                    width:53.87vw;
+                    
+
+                    .about-para{
+                        font-size: 12.8px;
+                        font-family: Poppins-Regular;
+                        color:#6d6e7e;
+                        line-height:1.9;
+                    }
+                }
+
+                .left-img{
+                    position: absolute;
+                    left:-80px;
+                    bottom:0;
+                    z-index:-1;
+                }
+            }
+        }
+
+        .about-second-row{
+            width:73.206vw;
+            margin-left: 11.346vw;
+            margin-top:80px;
+
+            .two-boxes{
+                margin-right:85px;
+                width:21.91vw;
+                float:left;
+                margin-bottom:5%;
+
+                .about-img-box{
+                    display:block;
+                    width:auto;
+                }
+
+                .about-text-box{
+                    text-align:center;
+                    padding: 22px 0px;
+
+                    h6.about-fb-profile-name{
+                        color:#0d669e;
+                        font-size: 21.34px;
+                        font-family: ProximaNova-Extrabold;
+                    }
+
+                    h6.about-fb-desig{
+                        color:#6d6e7e;
+                        font-size: 12.8px;
+                        font-family: Poppins-Regular;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+
+
+}
+
+
+// Contact page Styling
+
+.contact-portion{
+    margin-top:70px;
+}
+
+.faq-main-heading{
+    h3{
+        font-family: ProximaNova-Extrabold;
+    }
+    hr{
+        width:5%;
+        margin-top:0;
+    }
+}
+
+.contact-form-box{
+    display:flex;
+}
+
+
+
+
+.contact-main-container{
+    width: 73.206vw;
+    margin: 40px auto;
+}
+.contact-form-container{
+   
+    width: 25.98vw;
+    float: left;
+}
+.contact-map-row{
+    height: 260px;
+}
+
+
+
+.contact-form .form-control{
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.contact-form-message{
+    height: 150px;
+}
+.contact-form-button{
+    background-color: #1e1f2d!important;
+    color: white!important;
+}
+.contact-details-container{
+    width: 44.28vw;
+    float: left;
+    margin-left: 20px;
+}
+.contact-details-row p{
+    font-size: 13px;
+}
+.contact-details-span{
+    padding-right: 10px;
+}
+
+.contact-details-heading{
+    color: #6d6e7e!important;
+    font-weight: 700!important;
+}
+
+
+
 
 
 @media(min-width: 260px) and (max-width: 575px){
@@ -1468,6 +1664,132 @@
         }
     }
 
+
+    // About Page Styling
+    .about-container{
+        margin-top:110px;
+
+        .about-box-container{
+            width:73.206vw;
+            height:100%;
+            margin:auto;
+
+            .about-first-row{
+
+                .about-inner-row{
+                    position:relative;
+                    margin-left:0;
+                    width:100%;
+                    background-color: rgba(234, 238, 245, 0.9);  
+                    box-shadow:-8px 8px 25px rgba(15, 26, 38, 0.24);
+                    padding-bottom: 5px;                
+                    
+                    .about-heading{
+                        font-family: ProximaNova-Extrabold;
+                        font-size: 5.62vw;
+                        color:white;
+                        line-height: 0.79;
+                        // margin-left:-4px;
+                        margin-bottom:20px;
+                    }
+
+                    .about-description{
+                        margin-left: 2.56vw;
+                        width:53.87vw;
+                        
+
+                        .about-para{
+                            font-size: 12.8px;
+                            font-family: Poppins-Regular;
+                            color:#6d6e7e;
+                            line-height:1.9;
+                        }
+                    }
+
+                    .left-img{
+                        position: absolute;
+                        left:-80px;
+                        bottom:0;
+                        z-index:-1;
+                    }
+                }
+            }
+
+            .about-second-row{
+                width:73.206vw;
+                margin-left: 11.346vw;
+                margin-top:80px;
+
+                .two-boxes{
+                    margin-right:25px;
+                    width:21.91vw;
+                    float:left;
+                    margin-bottom:5%;
+
+                    .about-img-box{
+                        display:block;
+                        // width:auto;
+                    }
+
+                    .about-text-box{
+                        text-align:center;
+                        padding: 22px 0px;
+
+                        h6.about-fb-profile-name{
+                            color:#0d669e;
+                            font-size: 12px;
+                            font-family: ProximaNova-Extrabold;
+                        }
+
+                        h6.about-fb-desig{
+                            color:#6d6e7e;
+                            font-size: 10px;
+                            font-family: Poppins-Regular;
+                        }
+                    }
+                }
+            }
+
+            
+        }
+
+
+
+    }
+
+
+    // Contact page Styling
+
+    .contact-portion{
+        margin-top:70px;
+    }
+
+    .faq-main-heading{
+        h3{
+            font-family: ProximaNova-Extrabold;
+        }
+        hr{
+            width:5%;
+            margin-top:0;
+        }
+    }
+
+    .contact-form-box{
+        display:block;
+
+        .contact-form-container,.contact-details-container{
+            width:100%;
+        }
+
+        .contact-details-container{
+            margin-top:5%;
+            margin-left:0!important;
+        }
+    }
+
+    .faq-page{
+        margin-top:15%;
+    }
 }
 
 
@@ -2200,6 +2522,38 @@
             }
         }
     }
+
+    // Contact page Styling
+
+    .contact-portion{
+        margin-top:70px;
+    }
+
+    .faq-main-heading{
+        h3{
+            font-family: ProximaNova-Extrabold;
+        }
+        hr{
+            width:5%;
+            margin-top:0;
+        }
+    }
+
+    .contact-form-box{
+        display:block;
+
+        .contact-form-container,.contact-details-container{
+            width:100%;
+        }
+
+        .contact-details-container{
+            margin-top:5%;
+        }
+    }
+
+
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -2266,6 +2620,16 @@
             color: black;
         }
     } 
+
+
+
+    .contact-details-container{
+
+        width: 68%;
+        .contact-map-row{
+            height:230px;
+        }
+    }
 }
 
 
@@ -3841,7 +4205,7 @@
             background-image: url('../img/Layer 3.png');
             background-size: cover;
             background-repeat: no-repeat;
-            
+
 
             .right-banner-text{
                 position: absolute;
@@ -4387,4 +4751,97 @@
         }
     }
     
+
+     // About Page Styling
+     .about-container{
+        margin-top:110px;
+
+        .about-box-container{
+            width:73.206vw;
+            height:100%;
+            margin:auto;
+
+            .about-first-row{
+
+                .about-inner-row{
+                    position:relative;
+                    margin-left:9.95vw;
+                    width:59.297vw;
+                    background-color: rgba(234, 238, 245, 0.9);  
+                    box-shadow:-8px 8px 25px rgba(15, 26, 38, 0.24);
+                    padding-bottom: 5px;                
+                    
+                    .about-heading{
+                        font-family: ProximaNova-Extrabold;
+                        font-size: 5.62vw;
+                        color:white;
+                        line-height: 0.79;
+                        // margin-left:-4px;
+                        margin-bottom:20px;
+                    }
+
+                    .about-description{
+                        margin-left: 2.56vw;
+                        width:53.87vw;
+                        
+
+                        .about-para{
+                            font-size: 0.96vw;
+                            font-family: Poppins-Regular;
+                            color:#6d6e7e;
+                            line-height:1.9;
+                        }
+                    }
+
+                    .left-img{
+                        position: absolute;
+                        left:-80px;
+                        bottom:0;
+                        z-index:-1;
+                    }
+                }
+            }
+
+            .about-second-row{
+                width:73.206vw;
+                margin-left: 11.346vw;
+                margin-top:80px;
+
+                .two-boxes{
+                    margin-right:85px;
+                    width:298.81px;
+                    float:left;
+                    margin-bottom:5%;
+
+                    .about-img-box{
+                        display:block;
+                        // width:auto;
+                    }
+
+                    .about-text-box{
+                        text-align:center;
+                        padding: 22px 0px;
+
+                        h6.about-fb-profile-name{
+                            color:#0d669e;
+                            font-size: 21.34px;
+                            font-family: ProximaNova-Extrabold;
+                        }
+
+                        h6.about-fb-desig{
+                            color:#6d6e7e;
+                            font-size: 12.8px;
+                            font-family: Poppins-Regular;
+                        }
+                    }
+                }
+            }
+
+            
+        }
+
+
+
+    }
+
 }
