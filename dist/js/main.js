@@ -1,3 +1,7 @@
+document.getElementById("uploadBtn").onchange = function () {
+    document.getElementById("uploadFile").value = this.value;
+};
+
 //jQuery time
 var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
@@ -27,7 +31,7 @@ $(".next").click(function(){
 			opacity = 1 - now;
 			current_fs.css({
         'transform': 'scale('+scale+')',
-        'position': 'absolute'
+        // 'position': 'absolute'
       });
 			next_fs.css({'left': left, 'opacity': opacity});
 		}, 
