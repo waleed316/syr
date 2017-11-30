@@ -32,3 +32,5 @@
     <script src="dist/js/main.js"></script>
     <!-- owl js -->
     <script src="dist/js/owl.carousel.js"></script>
+
+    <!-- 0862194f1696866dd50c1984433a507f -->
