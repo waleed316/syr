@@ -39,7 +39,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 px-0">
                 <div class="flex-container">
                     <div class="left-banner">
-                        <div class="left-banner-text">
+                        <div class="left-banner-text wow slideInLeft">
                             <div class="center-allign">
                                 <h6 class="small-text">THE</h6>
                                 <h3 class="large-text">NEW WAY</h3>
@@ -58,7 +58,7 @@
 
                     <div class="right-banner">
                         <div class="right-bg-img"></div>
-                        <div class="right-banner-text">
+                        <div class="right-banner-text wow fadeInUp">
                             <h6 class="right-banner-tagline">Fun,</h6>
                             <h6 class="right-banner-tagline">Fair,</h6>
                             <h6 class="right-banner-tagline">Fast,</h6>
@@ -70,7 +70,7 @@
                         <hr class="right-banner-hr">
                     </div>
 
-                    <div class="bottom-banner">
+                    <div class="bottom-banner wow slideInDown">
                         <img src="dist/img/cars.png" alt="">
                     </div>
                     
@@ -101,7 +101,7 @@
                         <h1 class="third-section-heading">GETTING STARTED</h1>
                         <hr class="third-section-hr">
 
-                        <div class="third-section-form">
+                        <div class="third-section-form wow zoomIn">
                             <h1 class="third-section-form-heading">Request A Guaranteed Offer</h1>
                             <h3 class="third-section-form-second-heading">Use our simple online form to describe your <span>RIDE</span></h3>
                             <form action="" class="form-padding">
@@ -172,7 +172,7 @@
                         </div>
                     </div>
 
-                    <div class="fourth-section-bg">
+                    <div class="fourth-section-bg wow slideInRight">
                         <img src="dist/img/Layer 8.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -189,7 +189,7 @@
                     <div class="col-xl-12 px-0">
                         <div class="facebook-column">
                             
-                            <div class="facebook-feed">
+                            <div class="facebook-feed wow fadeInDown" data-wow-delay="0.1s">
                                 <div class="facebook-img">
                                     <img src="dist/img/Layer 10.png" alt="">
                                 </div>
@@ -210,7 +210,7 @@
                                 </div>
                             </div>
 
-                            <div class="facebook-feed">
+                            <div class="facebook-feed wow fadeInDown" data-wow-delay="0.3s">
                                 <div class="facebook-img">
                                     <img src="dist/img/Layer 10.png" alt="">
                                 </div>
@@ -231,7 +231,7 @@
                                 </div>
                             </div>
 
-                            <div class="facebook-feed">
+                            <div class="facebook-feed wow fadeInDown" data-wow-delay="0.5s">
                                 <div class="facebook-img">
                                     <img src="dist/img/Layer 10.png" alt="">
                                 </div>
@@ -252,7 +252,7 @@
                                 </div>
                             </div>
 
-                            <div class="facebook-feed">
+                            <div class="facebook-feed wow fadeInDown" data-wow-delay="0.7s">
                                 <div class="facebook-img">
                                     <img src="dist/img/Layer 10.png" alt="">
                                 </div>
@@ -280,10 +280,10 @@
         </div>
     </div>    
 
-    <div class="container-fluid px-0 sixth-portion">
+    <div class="container-fluid px-0 sixth-portion wow swing">
         <div class="row mx-0">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 px-0">
-                <h1 class="sixth-heading">TESTIMONIALS</h1>
+                <h1 class="sixth-heading wow fadIn">TESTIMONIALS</h1>
                 <hr class="sixth-section-hr">
 
                 <div class="container px-0 sixth-testimonial-section">
