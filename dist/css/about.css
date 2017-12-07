@@ -1,5 +1,20 @@
+@font-face {
+    font-family: ProximaNova-Extrabold;
+    src: url(../fonts/ProximaNova-Extrabold.otf);
+    }
+
+@font-face{
+    font-family: ProximaNova-Bold;
+    src:url(../fonts/ProximaNova-Bold.otf);
+}
+
+@font-face{
+    font-family: Poppins-Regular;
+    src:url(../fonts/Poppins-Regular.ttf);
+}
+
 h6{
-font-family: 'Poppins', sans-serif!important;
+font-family: Poppins-Regular;
 font-size: 0.94vw!important;
 color: #6d6e7e!important;
 }

@@ -47,7 +47,7 @@
                                 <h3 class="large-text">SELL YOUR RIDE</h3>
                                 <hr class="main-hr">
                                 <h6 class="tagline">FROM THE COMFORT OF YOUR HOME OR OFFICE!</h6>
-                                <a href="#" class="btn btn-syc">SELL YOUR RIDE NOW</a>
+                                <a href="contact.php" class="btn btn-syc">SELL YOUR RIDE NOW</a>
                             </div>
                         </div>
 
@@ -87,7 +87,7 @@
                         <h1 class="second-section-heading">SELL YOUR RIDES</h1>
                         <hr class="second-banner-hr">
                         <h6 class="second-banner-tagline">SellYourRides.com is commited to help you, and is the guaranteed easiest,<br class="hidden-md-down">hassle-free way to sell your vehicle fast.</h6>
-                        <a href="#" class="btn btn-syc">SELL YOUR RIDE NOW</a>                        
+                        <a href="syc.php" class="btn btn-syc">SELL YOUR RIDE NOW</a>                        
                     </div>
             </div>
         </div>
@@ -117,7 +117,7 @@
                                     <div class="col-xl-4 col-lg-4">
                                         <div class="form-field">
                                             <label for="inputEmail3" class="third-form-label third-form-label2 col-form-label">Phone</label>
-                                            <input type="text" class="form-control third-form-input mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput">
+                                            <input type="number" class="form-control third-form-input mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput">
                                         </div>
                                     </div>
 
@@ -168,7 +168,7 @@
                             <h1 class="fourth-heading">ABOUT</h1>
                             <hr class="fourth-section-hr">
                             <p class="fourth-desc"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <a href="#" class="know-more-btn">KNOW MORE...</a>
+                            <a href="about.php" class="know-more-btn">KNOW MORE...</a>
                         </div>
                     </div>
 

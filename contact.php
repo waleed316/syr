@@ -17,7 +17,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="about.php">ABOUT US</a>
                         </li>
                         <li class="nav-item">
@@ -26,7 +26,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="FAQ.php">FAQS</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="contact.php">CONTACT</a>
                         </li>
                     </ul>
@@ -49,11 +49,11 @@
                     <div class="contact-form-box">
                         <div class="contact-form-container">
                             <form class="form-group contact-form">
-                                <input type="text" class="form-control" placeholder="Name">
-                                <input type="text" class="form-control" placeholder="Email">
-                                <input type="text" class="form-control" placeholder="Phone">
-                                <input type="text" class="form-control" placeholder="Location">
-                                <input type="text" class="form-control contact-form-message" placeholder="Message">
+                                <input type="text" class="form-control contact-form-input" placeholder="Name:*">
+                                <input type="text" class="form-control contact-form-input" placeholder="Email:*">
+                                <input type="text" class="form-control contact-form-input" placeholder="Phone">
+                                <input type="text" class="form-control contact-form-input" placeholder="Location">
+                                <textarea class="form-control contact-form-message" id="exampleTextarea" placeholder="Message:*" rows="5"></textarea>
                                 <button class="form-control contact-form-button">Submit</button>
                             </form>  
                         </div>
@@ -61,27 +61,27 @@
 
                         <div class="contact-details-container">
                             <div class="contact-details-row">
-                                <p>
+                                <p class="mb-2">
                                     <span class="contact-details-span">
                                         <strong class="contact-details-heading">Contact:</strong>
-                                        +188-282-1904
-                                    </span>
+                                        <span class="contact-detail-con"> +188-282-1904</span>
+                                    </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                     <span class="contact-details-span">
                                         <strong class="contact-details-heading">Sales:</strong>
-                                        sales@sellyourrides.com
+                                        <span class="contact-detail-con"> sales@sellyourrides.com</span>
                                     </span>
                                 </p>
-                                <p>
+                                <p class="mb-2">
                                 <strong class="contact-details-heading"> Michigan and surrounding states:</strong>
-                                    Michigan@sellyourrides.com
+                                    <span class="contact-detail-con"> Michigan@sellyourrides.com</span>
                                 </p>
-                                <p>
+                                <p class="mb-2">
                                 <strong class="contact-details-heading">Tennessee and surrounding states:</strong>
-                                    Tennessee@sellyourrides.com
+                                    <span class="contact-detail-con"> Tennessee@sellyourrides.com</span>
                                 </p>
-                                <p>
+                                <p class="mb-2">
                                 <strong class="contact-details-heading">Partnering Opportunities:</strong>
-                                    partners@sellyourrides.com
+                                    <span class="contact-detail-con"> partners@sellyourrides.com</span>
                                 </p>
                             </div>
                             <div class="contact-map-row">

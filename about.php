@@ -39,8 +39,8 @@
             <div class="col-xl-12 px-0">
                 <div class="about-box-container">
                     <div class="about-first-row">
-
                         <div class="about-inner-row">
+                            
                             <h1 class="about-heading">WHO <br>ARE WE?</h1>
 
                             <div class="about-description">
@@ -54,6 +54,8 @@
                                 <p class="about-para">
                                     We have tied up with some of the biggest banks in United States, so you can know, our money is as real as it comes. All our deals are official with legal contracts. SellYourRides does the hard work for you, so you can sell your cars easily. We are always eager to buy your cars.
                                 </p>
+
+                                
                             </div>
 
                             <div class="left-img">

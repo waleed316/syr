@@ -50,10 +50,10 @@
                         <form action="" id="msform">
 
                             <ul id="progressbar">
-                                <li class="active">Account Setup</li>
-                                <li>Social Profiles</li>
-                                <li>Personal Details</li>
-                                <li>Personal Details</li>                                
+                                <li class="active"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>                                
                             </ul>
 
                         
@@ -533,7 +533,7 @@
                                 </div>
                                 <hr class="my-5">
 
-                                <input type="button" name="previous" class="previous action-button btn-sm btn form-btn-back" value="Previous" />
+                                <input type="button" name="previous" class="previous action-button btn-sm btn form-btn-back" value="BACK" />
                                 <input type="button" name="next" class="next action-button btn btn-sm form-btn-next pull-right" value="Next" />
                                 
                             </fieldset>
@@ -595,7 +595,7 @@
 
                                 <hr class="my-5">
 
-                                <input type="button" name="previous" class="previous action-button btn-sm btn form-btn-back" value="Previous" />
+                                <input type="button" name="previous" class="previous action-button btn-sm btn form-btn-back" value="BACK" />
                                 <input type="button" name="next" class="next action-button btn btn-sm form-btn-next pull-right" value="Next" />
                                 
 
@@ -668,7 +668,7 @@
 
                                 <hr class="my-5">
 
-                                <input type="button" name="previous" class="previous action-button btn-sm btn form-btn-back" value="Previous" />
+                                <input type="button" name="previous" class="previous action-button btn-sm btn form-btn-back" value="BACK" />
                                 <input type="submit" name="submit" class="submit action-button btn btn-sm form-btn-next pull-right" value="SUBMIT" />
                                 
                             </fieldset>

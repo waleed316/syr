@@ -15,8 +15,8 @@
                 <h6 class="footer-socials">Follow Us On</h6>
                 <ul class="social-list">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>                    
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>                     -->
                 </ul>
             </div>
        </div>

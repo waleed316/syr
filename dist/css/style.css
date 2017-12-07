@@ -187,7 +187,7 @@
 
 .third-portion {
   position: relative;
-  margin-top: 11%; }
+  margin-top: 15%; }
   .third-portion .third-section {
     margin-top: 10%;
     position: relative;
@@ -259,6 +259,7 @@
         .third-portion .third-section .third-section-form .form-padding .form-submit-btn {
           margin-top: 33px;
           width: 209px;
+          cursor: pointer;
           border-radius: 2.25rem;
           background-color: white;
           font-size: 0.89vw;
@@ -317,7 +318,8 @@
       z-index: -1; }
     .fourth-portion .fourth-left-column img {
       position: absolute;
-      bottom: 0; }
+      bottom: 0;
+      opacity: 0.3; }
   .fourth-portion .fourth-right-column {
     width: 53.87vw;
     height: 377px;
@@ -605,22 +607,31 @@
 
 .contact-form-button {
   background-color: #1e1f2d !important;
-  color: white !important; }
+  color: white !important;
+  cursor: pointer; }
 
 .contact-details-container {
   width: 44.28vw;
   float: left;
-  margin-left: 20px; }
+  margin-left: 3.221vw;
+  margin-top: 5px; }
 
 .contact-details-row p {
   font-size: 13px; }
 
 .contact-details-span {
-  padding-right: 10px; }
+  padding-right: 10px;
+  font-family: Poppins-Regular;
+  font-size: 11.7px; }
 
 .contact-details-heading {
   color: #6d6e7e !important;
-  font-weight: 700 !important; }
+  font-weight: 700 !important;
+  font-family: Poppins-Regular;
+  font-size: 11.7px; }
+
+.contact-detail-con {
+  color: #6d6e7e; }
 
 .form-portion {
   margin-top: 70px; }
@@ -658,7 +669,8 @@
         /*CSS counters to number the steps*/
         counter-reset: step;
         margin-left: 16%;
-        padding-top: 10px; }
+        padding-top: 10px;
+        height: 50px; }
       .form-portion .form-section .form-second-row #progressbar li {
         list-style-type: none;
         color: white;
@@ -674,7 +686,8 @@
         line-height: 27.32px;
         display: block;
         box-shadow: 0px 2px 9px #666;
-        font-size: 10px;
+        font-size: 14px;
+        font-weight: bold;
         color: #333;
         background: white;
         border-radius: 2.25rem;
@@ -690,16 +703,25 @@
         top: 13px;
         z-index: -1;
         /*put it behind the numbers*/ }
-      .form-portion .form-section .form-second-row #progressbar li:first-child:after {
-        /*connector not needed before the first step*/
-        content: none; }
-      .form-portion .form-section .form-second-row #progressbar li.active:before, .form-portion .form-section .form-second-row #progressbar li.active:after {
+      .form-portion .form-section .form-second-row #progressbar li:last-child:after {
+        content: '';
+        width: 180px;
+        height: 3px;
+        background: #b3bcc5;
+        position: absolute;
+        left: -50%;
+        top: 13px;
+        z-index: -1;
+        /*put it behind the numbers*/ }
+      .form-portion .form-section .form-second-row #progressbar li.active:before {
+        background-color: #0d669e;
+        color: white; }
+      .form-portion .form-section .form-second-row #progressbar li.active:after {
         background: #0d86b6;
         background: -moz-linear-gradient(left, #0d86b6 0%, #7429d0 100%);
         background: -webkit-linear-gradient(left, #0d86b6 0%, #7429d0 100%);
         background: linear-gradient(to right, #0d86b6 0%, #7429d0 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d86b6', endColorstr='#7429d0',GradientType=1 );
-        color: white; }
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d86b6', endColorstr='#7429d0',GradientType=1 ); }
       .form-portion .form-section .form-second-row #msform fieldset:not(:first-of-type) {
         display: none; }
       .form-portion .form-section .form-second-row #msform fieldset {
@@ -744,12 +766,15 @@
         background-color: white;
         border-style: solid;
         border-color: #eee;
-        height: 33px; }
+        height: 33px;
+        padding: 5px;
+        text-overflow: ellipsis; }
       .form-portion .form-section .form-second-row .form-input-file-btn {
         background-color: black;
         color: white;
         border-radius: 2.25rem;
-        font-size: 14px; }
+        padding: 7px 15px;
+        font-size: 15px; }
         .form-portion .form-section .form-second-row .form-input-file-btn:hover {
           box-shadow: 0px 2px 5px black; }
       .form-portion .form-section .form-second-row .form-btn-back {
@@ -773,7 +798,7 @@
         margin-right: 10px;
         margin-bottom: 5px; }
       .form-portion .form-section .form-second-row .custom-checkbox input:checked ~ .checkmark {
-        background-color: #2196F3; }
+        background-color: #0d669e; }
       .form-portion .form-section .form-second-row .custom-checkbox input:checked ~ .checkmark:after {
         display: block; }
       .form-portion .form-section .form-second-row .form-noted {
@@ -822,10 +847,11 @@
       .form-portion .form-section .form-second-row .custom-radio-box input:checked ~ .checkmark {
         background-color: #0d669e; }
       .form-portion .form-section .form-second-row .custom-radio-box .checkmark:after {
-        top: 3.4px;
-        left: 3px;
-        width: 7px;
-        height: 7px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 6px;
+        height: 6px;
         border-radius: 50%;
         background: white; }
       .form-portion .form-section .form-second-row .custom-radio-box {
@@ -841,11 +867,11 @@
           position: absolute;
           top: 0;
           left: 0;
-          height: 15.36px;
-          width: 15.36px;
+          height: 18px;
+          width: 18px;
           background-color: #fff;
           border-radius: 50%;
-          border: 1px solid #eee; }
+          border: 1px solid #c5c9d7; }
         .form-portion .form-section .form-second-row .custom-radio-box .checkmark:after {
           content: "";
           position: absolute;
@@ -1500,6 +1526,33 @@
 
   .faq-page {
     margin-top: 15%; } }
+.contact-form-input {
+  font-family: Poppins-Regular;
+  font-size: 13px !important;
+  height: 38.9px;
+  text-indent: 15px; }
+
+.contact-form-message {
+  text-indent: 15px !important; }
+
+::-webkit-input-placeholder {
+  font-size: 12px !important;
+  color: #6d6e7e; }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 12px !important;
+  color: #6d6e7e; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 12px !important;
+  color: #6d6e7e; }
+
+:-ms-input-placeholder {
+  font-size: 12px !important;
+  color: #6d6e7e; }
+
 @media (min-width: 576px) and (max-width: 767px) {
   .mobile-checkbox-margin {
     margin-left: 0.75rem !important; }
